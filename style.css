@@ -1,0 +1,23 @@
+.flex-container {
+    background-color: rgb(252, 245, 184);
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 100px;
+    width: 200px;
+}
+
+nav {
+     display: flex;
+     justify-content: space-evenly;
+     position: sticky;
+     top: 0px;
+     background-color: #83fff9;
+ }
+ 
+ section {
+     background-color: rgb(109, 255, 243);
+     height: 60vh;
+ }
